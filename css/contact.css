@@ -1,0 +1,70 @@
+section {
+  margin: 5% 7%;
+}
+.section-sub-title {
+  margin-bottom: 5%;
+}
+form {
+  margin: 5% 0 10%;
+}
+
+.contact p {
+  text-align: center;
+}
+.contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0;
+}
+.contact dt {
+  width: 20%;
+  padding-bottom: 3%;
+}
+.contact dd {
+  width: 80%;
+}
+.contact dd input,
+.contact dd textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.8%;
+}
+.contact .button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.contact .button input {
+  text-align: center;
+  border: 1px solid #222;
+  background-color: #222;
+  width: 180px;
+  padding: 20px 0;
+  color: #fff;
+  transition: all 0.2s;
+  margin-top: 5%;
+}
+.contact .button input:hover {
+  background-color: #fff;
+  color: #222;
+  transition: all 0.3s;
+}
+textarea {
+  resize: none;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    margin-top: 15%;
+  }
+  .contact dl {
+    flex-direction: column;
+  }
+  .contact dt {
+    width: 100%;
+    padding: 2% 1% 1%;
+  }
+  .contact dd {
+    width: 100%;
+  }
+}

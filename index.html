@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ハト株式会社</title>
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <ul>
+        <li><a href="index.html">
+          <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M21 8.77217L14.0208 1.79299C12.8492 0.621414 10.9497 0.621413 9.77817 1.79299L3 8.57116V23.0858H10V17.0858C10 15.9812 10.8954 15.0858 12 15.0858C13.1046 15.0858 14 15.9812 14 17.0858V23.0858H21V8.77217ZM11.1924 3.2072L5 9.39959V21.0858H8V17.0858C8 14.8767 9.79086 13.0858 12 13.0858C14.2091 13.0858 16 14.8767 16 17.0858V21.0858H19V9.6006L12.6066 3.2072C12.2161 2.81668 11.5829 2.81668 11.1924 3.2072Z"
+            fill="currentColor"
+          />
+        </svg>
+        </a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#news">News</a></li>
+        <li><a href="index.html#service">Service</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="main">
+    <video autoplay loop muted playsinline class="bg-video">
+      <source src="img/IMG_0112.mp4" type="video/mp4">
+    </video>
+    <div class="main-content">
+      <h1>Welcome to nature</h1>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="section-title">About</h2>
+    <p class="section-sub-title">ハト株式会社の概要</p>
+    <div class="content">
+      <div class="img-box">
+        <img src="img/about.jpg" alt="ハトの画像">
+      </div>
+      <div class="text-box">
+        <h3>ハト株式会社</h3>
+        <p>自然をコンセプトにしたWebサイト制作やブランディグ等を行っています。</p>
+        <p>ハト株式会社では、自然の持つ美しさや調和をデザインに落とし込み、心地よく伝わるブランドづくりをサポートします。</p>
+        <button class="button" onclick="location.href='about.html'">詳しく見る</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="news" class="news">
+    <h2 class="section-title">News</h2>
+    <p class="section-sub-title">お知らせ</p>
+    <dl>
+      <dt>2025.3.29</dt>
+      <dd>細かな調整を行いました。</dd>
+      <dt>2025.3.25</dt>
+      <dd>本サイトをリリースしました。</dd>
+      <dt>2025.3.24</dt>
+      <dd>レスポンシブに対応しました。</dd>
+      <dt>2025.3.23</dt>
+      <dd>画面設計を開始しました。同時に装飾も実装中です。</dd>
+    </dl>
+  </section>
+
+  <section id="service" class="service">
+    <h2 class="section-title">Service</h2>
+    <p class="section-sub-title">提供サービス</p>
+    <div class="service-content">
+      <div class="img-content">
+        <div class="img-hover">
+          <img src="img/service-img1.jpg" alt="自然の画像">
+          <div class="text-content">
+            <p>Webサイト制作</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-content">
+        <div class="img-hover">
+          <img src="img/service-img2.jpg" alt="自然の画像">
+          <div class="text-content">
+            <p>ブランディング</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-content">
+        <div class="img-hover">
+          <img src="img/service-img3.jpg" alt="自然の画像">
+          <div class="text-content">
+            <p>デザイン</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-content">
+        <div class="img-hover">
+          <img src="img/service-img4.jpg" alt="自然の画像">
+          <div class="text-content">
+            <p>自然を感じる</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy;ハト株式会社</p>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+</html>
