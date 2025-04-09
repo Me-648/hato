@@ -123,9 +123,9 @@ section:not(:first-of-type) {
   transition: all 0.2s; 
 }
 .service-content .img-hover:hover {
-  opacity: 0.8 !important;
+  opacity: 0.8;
   z-index: 3;
-  transform: scale(1.05) !important;
+  transform: scale(1.05);
 }
 .service-content .img-hover::after {
   content: "";
